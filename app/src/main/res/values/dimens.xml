@@ -1,0 +1,21 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="expense_date_width">100dp</dimen>
+    <dimen name="expense_amount_width">95dp</dimen>
+    <dimen name="expense_list_padding">8dp</dimen>
+    <dimen name="expense_amount_text_size">14sp</dimen>
+    <dimen name="expense_description_text_size">14sp</dimen>
+    <dimen name="expense_date_text_size">14sp</dimen>
+    <dimen name="expense_list_adview_margin_top">30dp</dimen>
+
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="widget_title_text_size">14sp</dimen>
+    <dimen name="widget_title_margin">8dp</dimen>
+    <dimen name="widget_amount_text_size">24sp</dimen>
+    <dimen name="widget_amount_margin">8dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
+</resources>
