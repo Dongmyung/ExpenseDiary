@@ -6,7 +6,7 @@ android {
             storeFile file("$rootDir/keystore.jks")
             storePassword 'dongmyungahn'
             keyAlias = 'expensediary'
-            keyPassword 'expensediary373'
+            keyPassword '[[KEY PASSWORD]]'
         }
     }
     compileSdkVersion 28
@@ -28,7 +28,7 @@ android {
     }
     buildTypes.each {
         it.buildConfigField 'String', 'THE_ADMOB_APP_ID', TheAdmobAppId
-        it.manifestPlaceholders = [ theAdmobAppId:"ca-app-pub-3940256099942544~3347511713"]
+        it.manifestPlaceholders = [ theAdmobAppId:"[[ADMOB ID]]"]
     }
 }
 
